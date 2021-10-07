@@ -41,7 +41,7 @@ def expand_list(values_str):
 
 """
 "data.txt" file should have a first line like this to define the columns:
-location|patron_type|item_type|age_range|rule_number|active|unknown
+id|location|patron_type|item_type|age_range|rule_number|active|unknown
 """
 # our output file will be another csv file but ... better!
 output_data = open('output_data.csv', 'w', newline='')
